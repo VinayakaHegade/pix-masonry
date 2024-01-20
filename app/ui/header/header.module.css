@@ -2,7 +2,7 @@
 
 .header {
   padding: 16px 47px 17px 39px;
-  border-radius: 8px;
+  border-radius: var(--bradius);
   background: rgba(217, 217, 217, 0.12);
   box-shadow: -4px 4px 4px 0px rgba(255, 255, 255, 0.43) inset,
     4px -4px 4px 0px rgba(182, 182, 182, 0.43) inset;
