@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 40px 32px;
+}
+
+.header {
+  padding: 16px 47px 17px 39px;
+  border-radius: 8px;
+  background: rgba(217, 217, 217, 0.12);
+  box-shadow: -4px 4px 4px 0px rgba(255, 255, 255, 0.43) inset,
+    4px -4px 4px 0px rgba(182, 182, 182, 0.43) inset;
+  backdrop-filter: blur(25px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.createAccount {
+  border: 2.672px solid #fff;
+  border-radius: var(--bradius);
+  padding: 7px 14px;
+}

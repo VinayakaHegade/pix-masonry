@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* --text-medium: 17.3px; */
+  --bradius: 8.906px;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.medium-text {
+  color: #fff;
+  font-family: "Euclid Circular B";
+  font-size: 17.813px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.95px;
+}

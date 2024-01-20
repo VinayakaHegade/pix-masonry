@@ -1,9 +1,10 @@
 import styles from "./page.module.css";
+import Header from "./ui/header/header";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Pix Masonry</h1>
+      <Header />
     </main>
   );
 }
