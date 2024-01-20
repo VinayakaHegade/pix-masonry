@@ -17,14 +17,18 @@ const Hero = () => {
           ></Image>
 
           <div className={styles.divider}></div>
-          <h4 className="medium-text">Search</h4>
+          <input
+            className={`${styles.searchInput} medium-text`}
+            placeholder="Search"
+          ></input>
         </section>
         <button className={`${styles.goBtn} medium-text`}>GO!</button>
       </div>
 
       <div className={styles.trending}>
         <p className={styles.trendingText}>
-          <span className={styles.trendingBold}>Trending:</span> flowers, love, forest, river
+          <span className={styles.trendingBold}>Trending:</span> flowers, love,
+          forest, river
         </p>
       </div>
     </section>

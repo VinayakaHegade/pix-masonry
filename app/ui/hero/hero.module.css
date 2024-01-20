@@ -28,6 +28,23 @@
   justify-content: space-between;
 }
 
+.searchInput {
+  background: none;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.searchInput::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.searchInput::-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
 .searchLeft {
   display: flex;
   align-items: center;
